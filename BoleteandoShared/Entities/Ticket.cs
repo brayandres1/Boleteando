@@ -14,7 +14,7 @@ namespace BoleteandoShared.Entities
       
         
         [Display(Name = "Fecha de uso")]               
-        public DateTime DateUsed { get; set; } = DateTime.MinValue;
+        public DateTime DateUsed { get; set; } = new DateTime();
 
 
         [Display(Name = "Estado")]          

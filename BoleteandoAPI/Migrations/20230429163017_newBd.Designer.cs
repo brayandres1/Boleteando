@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BoleteandoAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230429144048_newBd")]
+    [Migration("20230429163017_newBd")]
     partial class newBd
     {
         /// <inheritdoc />
