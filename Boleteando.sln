@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoleteandoShared", "BoleteandoShared\BoleteandoShared.csproj", "{21EC2AA5-0AF5-4DF3-9DF5-B5DE82740580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoleteandoAPI", "BoleteandoAPI\BoleteandoAPI.csproj", "{AA14FFA2-777E-4450-8D98-D4893689743F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoleteandoWEB", "BoleteandoWEB\BoleteandoWEB.csproj", "{5FD1E7D0-B157-414E-9C0B-519ACC1B4E1D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21EC2AA5-0AF5-4DF3-9DF5-B5DE82740580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EC2AA5-0AF5-4DF3-9DF5-B5DE82740580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EC2AA5-0AF5-4DF3-9DF5-B5DE82740580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EC2AA5-0AF5-4DF3-9DF5-B5DE82740580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA14FFA2-777E-4450-8D98-D4893689743F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA14FFA2-777E-4450-8D98-D4893689743F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA14FFA2-777E-4450-8D98-D4893689743F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA14FFA2-777E-4450-8D98-D4893689743F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD1E7D0-B157-414E-9C0B-519ACC1B4E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD1E7D0-B157-414E-9C0B-519ACC1B4E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD1E7D0-B157-414E-9C0B-519ACC1B4E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD1E7D0-B157-414E-9C0B-519ACC1B4E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
