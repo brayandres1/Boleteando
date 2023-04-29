@@ -12,22 +12,17 @@ namespace BoleteandoShared.Entities
     {
         public int Id { get; set; }
       
-        [DataType(DataType.Date)]
-        [Display(Name = "Fecha de uso")]
-        [Required(ErrorMessage = "Debe proporcionar la fecha de uso")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime DateUsed { get; set; }
+        
+        [Display(Name = "Fecha de uso")]               
+        public DateTime DateUsed { get; set; } = DateTime.MinValue;
 
 
-        [Display(Name = "Estado")]
-        [MaxLength(100, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]
-        [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-        public string State { get; set; } = null!;
+        [Display(Name = "Estado")]          
+        public bool State { get; set; } = false!;
 
 
         [Display(Name = "Porteria")]
-        [MaxLength(100, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]
-        [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+        [MaxLength(100, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]        
         public string Goal { get; set; } = null!;
 
     }
