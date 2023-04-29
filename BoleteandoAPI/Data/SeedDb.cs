@@ -28,7 +28,7 @@ namespace BoleteandoAPI.Data
                     _context.Tickets.Add(new Ticket {                         
                         DateUsed = fecha, 
                         State = false, 
-                        Goal = "Principal" });                                        
+                        Goal = "null" });                                        
                     await _context.SaveChangesAsync();
                 }
 
